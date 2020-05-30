@@ -57,6 +57,7 @@ pub mod image_client;
 pub mod module_store;
 pub mod provider;
 pub mod status;
+pub mod tls_bootstrapper;
 pub mod volumes;
 
 pub use self::kubelet::Kubelet;
